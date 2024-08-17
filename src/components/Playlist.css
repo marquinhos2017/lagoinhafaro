@@ -1,0 +1,25 @@
+.playlist {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.playlist h2 {
+    color: #1db954;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: #1db954;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.back-button:hover {
+    color: #fff;
+}

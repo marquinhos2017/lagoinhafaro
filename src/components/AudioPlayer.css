@@ -1,0 +1,45 @@
+.audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.track-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.track-info p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.play-pause-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #1db954;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #282828;
+    border-radius: 5px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline {
+    color: #1db954;
+}
+
+audio::-webkit-media-controls-volume-slider {
+    color: #1db954;
+}

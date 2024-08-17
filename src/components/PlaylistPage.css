@@ -1,0 +1,42 @@
+.playlist-page {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.playlist-page h2 {
+    color: #1db954;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: #1db954;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.back-button:hover {
+    color: #fff;
+}
+
+.playlist-button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.playlist-button:hover {
+    background-color: #17a74a;
+}
