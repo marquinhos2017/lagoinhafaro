@@ -8,6 +8,7 @@ const SongList = () => {
     const songs = [
         { title: 'Canção ao Cordeiro', artist: '', path: '/song1' },
         { title: 'Santo pra Sempre', artist: '', path: '/song2' },
+        { title: 'Clamo Jesus', artist: 'Paulo Cesar Baruk, Marsena', path: '/song3' },
         //    { title: 'Santo pra sempre', artist: 'Artist 3', path: '/song3' },
         //    { title: 'Canção do Apocalipse', artist: 'Artist 4', path: '/song4' },
     ];
