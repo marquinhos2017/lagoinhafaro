@@ -7,6 +7,8 @@ import PlayerPage1 from './components/PlayerPage';
 import './App.css';
 import PlayerPage2 from './components/PlayerPage2';
 import PlayerPage3 from './components/PlayerPage3';
+import PlayerPage4 from './components/PlayerPage4';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route path="/song1" element={<PlayerPage1 />} />
           <Route path="/song2" element={<PlayerPage2 />} />
           <Route path="/song3" element={<PlayerPage3 />} />
+          <Route path="/song4" element={<PlayerPage4 />} />
 
         </Routes>
       </div>

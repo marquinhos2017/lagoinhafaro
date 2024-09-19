@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Player from './Player';
-import './PlayerPage3.css';
+import './PlayerPage4.css';
 import { useNavigate } from 'react-router-dom';
+
 
 const PlayerPage3 = () => {
     const [selectedTrack, setSelectedTrack] = useState(null);
@@ -52,3 +53,6 @@ const PlayerPage3 = () => {
 };
 
 export default PlayerPage3;
+
+
+
