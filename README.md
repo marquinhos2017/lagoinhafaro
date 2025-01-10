@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+Lagoinha Music Kit Vocal
+O Lagoinha Music Kit Vocal é um aplicativo desenvolvido em React que facilita o acesso a recursos personalizados para vocalistas, como treinamento vocal, técnicas de aquecimento, harmonias, e exercícios para grupos vocais. Este aplicativo foi criado para ajudar equipes de louvor e músicos a se prepararem e aprimorarem suas habilidades vocais com ferramentas fáceis de usar e um design moderno.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Funcionalidades do App
+1. Biblioteca de Kits Vocais
+Acesso a uma coleção de exercícios vocais, aquecimentos e práticas.
+Kits categorizados por:
+Níveis: Iniciante, Intermediário e Avançado.
+Tipo de treinamento: técnica, harmonia, e aquecimento.
+2. Player de Áudio Integrado
+Controle de faixas de áudio com recursos de:
+Play, Pause, e Stop.
+Controle de volume individual por faixa.
+Mute e Solo para prática personalizada.
+Ajuste de andamento para treino em diferentes velocidades.
+3. Suporte a Harmonias
+Reproduza harmonias separadamente para treinamento individual ou em grupo.
+Interface com sliders verticais para controle de volume de cada harmonia.
+4. Upload de Arquivos
+Adicione novos exercícios ou faixas de áudio diretamente pelo app.
+Suporte a formatos populares como MP3 e WAV.
+5. Simulação de Anúncios
+Insira simulações de anúncios entre os exercícios para testar o comportamento do app em diferentes cenários de uso.
+6. Layout Responsivo
+Interface adaptada para desktops, tablets e dispositivos móveis.
+Design moderno e intuitivo, utilizando a paleta de cores da Lagoinha.
