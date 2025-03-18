@@ -8,6 +8,7 @@ import './App.css';
 import PlayerPage2 from './components/PlayerPage2';
 import PlayerPage3 from './components/PlayerPage3';
 import PlayerPage4 from './components/PlayerPage4';
+import PlayerPage5 from './components/PlayerPage5';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/song2" element={<PlayerPage2 />} />
           <Route path="/song3" element={<PlayerPage3 />} />
           <Route path="/song4" element={<PlayerPage4 />} />
+          <Route path="/song5" element={<PlayerPage5 />} />
 
         </Routes>
       </div>
